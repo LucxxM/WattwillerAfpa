@@ -370,7 +370,7 @@ body{
 
 .slider-section > .active{
     display: flex;
-    animation: animate 2.5s ease-in-out;
+    animation: animate 1s ease-in-out;
 }
 
 @keyframes animate {
