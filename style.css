@@ -12,6 +12,7 @@ body{
     min-height: 100vh;
     font-family: "Muli", sans-serif;
     box-sizing: border-box;
+    color: #000f33;
 }
 
 
@@ -219,6 +220,15 @@ body{
     line-height: 2.5em;
 }
 
+.content-section > .big-box > .text-box> span{
+    font-family: "Sequel_Demo", sans-serif;
+    color: #314d91;
+    line-height: 1;
+    font-weight: 550;
+    margin-bottom: 2em;
+    font-size: 1em;
+}
+
 .content-section > .big-box > .text-box> img{
     width: 100%;
     padding-top: 1em;
@@ -231,7 +241,7 @@ body{
 }
 .content-section > .big-box > .text-box> h4{
     font-family: "Sequel_Demo", sans-serif;
-    color: blue;
+    color: #314d91;
     line-height: 1;
     margin-bottom: 2em;
     /* word-spacing: -0.1em; */
@@ -421,7 +431,7 @@ body{
 }
 .slider-section > .item > .text-box> h4{
     font-family: "Sequel_Demo", sans-serif;
-    color: blue;
+    color: #314d91;
     line-height: 1;
     margin-bottom: 2em;
     /* word-spacing: -0.1em; */
@@ -453,7 +463,7 @@ body{
 
 
 .news-section{
-    margin-top: 5em;
+    margin-top: 3em;
     display: flex;
     flex-direction: column;
     justify-content: center;
