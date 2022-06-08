@@ -257,6 +257,8 @@ body{
     position: relative;
     min-width: 420px;
     width: calc(8*8.333%);
+    display: flex;
+    justify-content: center;
 }
 /* .content-section > .big-box > .img-box > img{
     position: absolute;
