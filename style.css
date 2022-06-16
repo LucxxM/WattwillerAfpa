@@ -307,6 +307,7 @@ body{
 .content-section > .big-box > .img-box >.span-box {
     position: absolute;
     right: 0;
+    top: 100%;
     transform: translateY(-50px);
     width: 35%;
     font-size: small;
@@ -327,7 +328,7 @@ body{
     right: 0;
 }
 
-@media screen and (max-width: 1080px){
+@media screen and (max-width: 1200px){
     .content-section > .big-box > .img-box2> img{
         position: initial;
     }
@@ -357,6 +358,10 @@ body{
         width: 100% !important;
         /* margin-left: 50%; */
         /* transform: translate(-50% , 0); */
+    }
+
+    .content-section > .big-box > .img-box >.span-box {
+        width: 60% !important;
     }
 
 }
