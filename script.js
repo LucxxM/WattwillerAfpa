@@ -92,7 +92,20 @@ arrowsRight.forEach(arrow => {
 
 
 
+const menuBurger = document.querySelector('#menuToOpen');
+const menuBurgerClose = document.querySelector('#menuToClose');
+const navToDisplay = document.querySelector('#navToDisplay');
 
 
+menuBurger.addEventListener('click', () => {
+    navToDisplay.style.display = 'block';
+    menuBurgerClose.style.display = 'block';
+    menuBurger.style.display = 'none';
+});   
 
+menuBurgerClose.addEventListener('click', () => {
+    navToDisplay.style.display = 'none';
+    menuBurgerClose.style.display = 'none';
+    menuBurger.style.display = 'block';
 
+});
