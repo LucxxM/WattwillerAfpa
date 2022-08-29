@@ -1,6 +1,6 @@
 const items = document.querySelectorAll('.item');
 const arrowsLeft = document.querySelectorAll('.fa-arrow-left');
-const arrowsRight = document.querySelectorAll('.fa-arrow-right');   
+const arrowsRight = document.querySelectorAll('.fa-arrow-right');
 const active = document.querySelector('.active');
 
 console.log(items);
@@ -27,10 +27,10 @@ function onclickRight() {
 
 function onhoverLeft() {
     arrowsLeft.forEach(arrow => {
-        if (arrow.classList.contains('grey-arrow')){
+        if (arrow.classList.contains('grey-arrow')) {
             arrow.classList.remove('fa-arrow-left-long');
             arrow.classList.add('fa-arrow-left');
-        }else{
+        } else {
 
             arrow.classList.add('fa-arrow-left-long');
             arrow.classList.remove('fa-arrow-left');
@@ -40,7 +40,7 @@ function onhoverLeft() {
 }
 function onhoverLeft2() {
     arrowsLeft.forEach(arrow => {
-        
+
         arrow.classList.remove('fa-arrow-left-long');
         arrow.classList.add('fa-arrow-left');
     }
@@ -50,44 +50,40 @@ function onhoverLeft2() {
 
 function onhoverRight() {
     arrowsRight.forEach(arrow => {
-        if (arrow.classList.contains('grey-arrow')){
-        arrow.classList.remove('fa-arrow-right-long');
-        arrow.classList.add('fa-arrow-right');
-        }else{
+        if (arrow.classList.contains('grey-arrow')) {
+            arrow.classList.remove('fa-arrow-right-long');
+            arrow.classList.add('fa-arrow-right');
+        } else {
             arrow.classList.add('fa-arrow-right-long');
             arrow.classList.remove('fa-arrow-right');
         }
 
-    }
-    )
+    })
+    
 }
 function onhoverRight2() {
     arrowsRight.forEach(arrow => {
         arrow.classList.remove('fa-arrow-right-long');
         arrow.classList.add('fa-arrow-right');
-    }
-    )
+    })
+    
 }
-
 
 arrowsLeft.forEach(arrow => {
     arrow.addEventListener('mouseenter', onhoverLeft);
-}
-);
+});
+
 arrowsLeft.forEach(arrow => {
     arrow.addEventListener('mouseleave', onhoverLeft2);
-}
-);
-
+});
 
 arrowsRight.forEach(arrow => {
     arrow.addEventListener('mouseenter', onhoverRight);
-}
-);
+});
+
 arrowsRight.forEach(arrow => {
     arrow.addEventListener('mouseleave', onhoverRight2);
-}
-);
+});
 
 
 

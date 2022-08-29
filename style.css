@@ -38,19 +38,21 @@ body{
 }
 
 #giftIcon{
-    /* position: absolute; */
+    width: 35px;
+    height: 35px;
+}
+
+#giftIcon2{
     width: 35px;
     height: 35px;
 }
 
 #logo{
-    /* position: absolute; */
     width: 22%;
     margin-top: 25px;
 }
 
 .header-section > nav{
-    
     width: 60%;
     display: flex;
 }
@@ -145,7 +147,14 @@ body{
 }
 
 .picto-box{
+    display: flex;
+    flex-wrap: wrap;
     width: 70%;
+}
+
+.picto-box > div{
+    min-width: 150px;
+    
 }
 
 /* .home-section > img{
