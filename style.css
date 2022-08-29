@@ -77,6 +77,7 @@ body{
         position: fixed;
         top: 15vh;
         background-color: white;
+        z-index: 2  !important;
     }
 
     .header-section > nav > ul{
@@ -832,16 +833,31 @@ body{
 .footer > .li-box> ul{
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     list-style: none;
   
 }
 
 .footer > .li-box> ul > li{
     font-size: smaller;
+    text-align: center;
     font-weight: bold;
     color: white;
     line-height: 2em;
     cursor: pointer;
+}
+
+@media screen and (max-width: 1080px){
+    .footer > .li-box{
+        width: 75%;
+    }    
+
+    .footer > .li-box> ul{
+        flex-wrap: wrap;
+    }
+    .footer > .li-box> ul > li {
+        padding: 0.5em;
+    }
 }
 
 .footer > .li-box> ul > li:hover{
@@ -854,5 +870,6 @@ body{
 .footer > .credits{
     display: flex;
     justify-content: flex-end;
+    text-align: center;
     width: 25%;
 }
