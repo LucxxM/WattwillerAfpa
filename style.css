@@ -74,6 +74,9 @@ body{
     #menuToOpen{
         display: block;
     }
+    #menu-burger{
+        display: none;
+    }
 
     .header-section > .svg-box2{
        width: 70% !important;
