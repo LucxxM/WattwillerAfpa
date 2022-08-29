@@ -38,29 +38,18 @@ body{
 }
 
 #giftIcon{
-    /* position: absolute; */
+    width: 35px;
+    height: 35px;
+}
+
+#giftIcon2{
     width: 35px;
     height: 35px;
 }
 
 #logo{
-    /* position: absolute; */
     width: 22%;
     margin-top: 25px;
-}
-
-#menuToClose{
-    display: none;
-    position: fixed;
-    left: 0;
-    top: 10vh;
-}
-
-#menuToOpen{
-    display: none;
-    position: fixed;
-    left: 0;
-    top: 10vh;
 }
 
 .header-section > nav{
@@ -103,11 +92,14 @@ body{
     #menuToOpen{
         display: block;
     }
+    #menu-burger{
+        display: none;
+    }
 
     .header-section > .svg-box2{
        width: 70% !important;
     }
-}
+
 
 .header-section > .svg-box1{
     width: 30%;
@@ -211,17 +203,13 @@ body{
 }
 
 .picto-box{
+    display: flex;
+    flex-wrap: wrap;
     width: 70%;
     display: flex;
     flex-wrap: wrap;
 }
 
-.picto-box > div{
-    min-width: 160px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 /* .home-section > img{
     width: 50%;
 } */
