@@ -34,12 +34,6 @@ body{
     height: 35px;
 }
 
-#logo{
-    /* position: absolute; */
-    width: 22%;
-    margin-top: 25px;
-}
-
 #menuToClose{
     display: none;
     position: fixed;
@@ -51,7 +45,6 @@ body{
 #menuToOpen{
     display: none;
     height: 50px;
-
     position: fixed;
     left: 0;
     top: 10vh;
@@ -85,7 +78,6 @@ body{
 
     .header-section > nav > ul > li{
         margin-bottom: 1em;
-
     }
 
     #logo{
@@ -139,10 +131,15 @@ body{
 .header-section > nav > ul > li{
     position: relative;
     display: flex;
+    max-width: 20%;
     justify-content: center;
     width: max-content;
     font-size: 0.7em;
     font-weight: bold;
+}
+
+.header-section > nav > ul > li >img{
+    width: 100%;
 }
 
 .header-section > nav > ul > li > .a-nav{
@@ -303,7 +300,10 @@ body{
     margin-left: 5%;
     width: 90%;
 }
-
+.content-section > .big-box > .img-box > video{
+    width: 90%;
+    height: auto;
+}
 .content-section > .big-box > #img-box__spe{
     position: relative;
     min-width: 420px;
